@@ -8,21 +8,12 @@
   <artifactId>pluginsib-tester-enforcer</artifactId>
   <version>1.0.0</version>
   <packaging>pom</packaging>
-  
-  <parent>
-    <groupId>org.fundaciobit.pluginsib.tester</groupId>
-    <artifactId>pluginsib-tester</artifactId>
-    <version>1.0.0</version>
-  </parent>
-  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
-  
-  <build>  
-
+  <build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -72,7 +63,5 @@
         </executions>
       </plugin>
     </plugins>
-	
   </build>
-  
   </project>
